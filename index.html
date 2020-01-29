@@ -1,0 +1,114 @@
+<!DOCTYPE html> <!-- assign newest html  -->
+<html>
+<head>
+	<title>First Choice</title> <!-- top of the page ie title bar  -->
+
+	            <!-- using css here ... writing here will effect in whole page -->
+	            <!-- we can write css in html file as well as in different file but we will connect them -->
+	            <style type="text/css">
+	            	/*	selector {
+							property : value;
+	            	} */
+	            	li {
+	            		color: brown;
+	            	}
+	            	
+	            </style>
+	            <link rel="stylesheet" type="text/css" href="MBA_Project_Page_2(feedback)_2020.css">
+</head>
+<body>
+								<!-- ............................dark mode light mode code -->
+	<form>
+		<select name="Dark/Light" > <!-- make a form for selection of options -->
+			<option value="change1">Dark Mode</option>
+			<option value="change2">Light Mode</option>
+		</select>
+		<button>Change</button>
+	</form>
+	<h1 style="color : green; ">Welcome to FIRST CHOICE</h1> <!-- h1 h2 h3 .. h6 are height/size -->   <!-- style="color : red;  is css -->
+	<h6>Get everything here!</h6>
+
+				<!-- ..........................................	Log in | sign up coding -->
+	<form action="MBA_Project_Page_1_2020.html	"> <!-- we will redirect to this page by action .. sending data to this page -->
+		<label for="username">Registered mobile number: </label> <!-- label name to username id -->
+		<input id="username" name="usernameValue" type="number" placeholder="phone number" required> <!-- id for label, type- email , number, text . required is necessary -->
+		<input type="password" placeholder="password" required>	<!--  password for password entering -->
+		<button>Log in</button> <!-- buttons -->
+		<button>Sign Up here</button>
+	</form>
+
+
+						<!-- .......................first choice logo code -->
+	<center>
+		<a href="index.html" > <img src="firstchoicelogo1.png" ></a> <!-- a href proivde url/link and img src provide image  -->  
+	</center>
+
+	<center>
+	<p>We are serving <strong>India</strong> from decade. Every <i>Indian </i>trust us ! We can confidently said Yes we are the winners.</p>	<!-- <P> breaks the line to next line. strong or <b> makes the word bold. i or  <em> makes italic -->
+	</center>
+
+
+										<!-- .............................................best product table section -->
+	<br> <center>
+	<table border="1">
+		<h2><b><i>Our best products</i></b></h2>
+		<thead>
+			<tr>
+				<td>Product</td>
+				<td>Price</td>
+				<td>Rating</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>  <a href="https://www.amazon.in/Gaming-G3-3579-i5-8300H-Windows-Graphics/dp/B07XZFYQ18/ref=sr_1_1_sspa?keywords=laptop&qid=1580210607&smid=A14CZOWI0VEHLG&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySEZTN1BZTUNMSUE0JmVuY3J5cHRlZElkPUEwMzc2NzQ4MjJFQUI5SllRRE9aMSZlbmNyeXB0ZWRBZElkPUEwODc2MjAxMTFVUEJGQ01aS0EyViZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=""><img src="product1.png"> </a> </td>
+				<td>Rs 59,999</td>
+				<td>4.5/5</td>
+			</tr>
+			<tr>
+				<td> <a href="https://www.amazon.in/Whirlpool-WDE-205-CLS-Plus/dp/B0751P1GGW/ref=sr_1_2_sspa?keywords=fridge&qid=1580214519&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExVUtEQjRHVUJQVFAyJmVuY3J5cHRlZElkPUExMDE3ODEyMUw0RjlJTVdURk45RyZlbmNyeXB0ZWRBZElkPUEwODE4NDkxMTRISVEyS09QQVU0JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="> <img src="product2fridge.png"> </a>	 </td>
+				<td>Rs 11,990</td>
+				<td>4/5</td>
+			</tr>
+			<tr>
+				<td> <a href="https://amazon.in/Logitech-K230-Wireless-Keyboard/dp/B01267B9CW/ref=sxin_0_ac_d_rm?ac_md=1-1-d2lyZWxlc3Mga2V5Ym9hcmQ%3D-ac_d_rm&cv_ct_cx=keyboard&keywords=keyboard&pd_rd_i=B01267B9CW&pd_rd_r=f6a4f3ba-ba88-4e95-b038-97b80a289fd6&pd_rd_w=dJHYU&pd_rd_wg=ywTnz&pf_rd_p=66675074-ffbc-438a-a331-371e568cfa8b&pf_rd_r=A292QYMXRC4Q4Q295V2E&psc=1&qid=1580214697&sr=1-2-fe323411-17bb-433b-b2f8-c44f2e1370d4"> <img src="product2keyboard.png"> </a> </td>
+				<td>Rs 749</td>
+				<td>4.5/5</td>
+			</tr>
+		</tbody>
+	</table>
+	</br> </center>
+
+				<!-- ........................... available cities , country list code -->
+
+		<em>Our products are available in- </em>
+		<ol> <!-- orderd list... numbering will be there -->
+			<em>
+			<li>United State of America</li>
+			<li>Canada</li>
+			<li>India</li>
+				<ul>    <!-- unorderd list...  no numbering will be there -->
+					<li>Mumbai</li>
+					<li>Delhi</li>
+					<li>Goa</li>
+					<li>Hyderabad</li>
+				</ul>
+
+			<li>Russia</li>
+			<li>Saudi Arab</li>
+			<li>France</li>
+			<li>Qatar</li>
+			<li>Iran</li>
+			</em>
+		</ol>
+									<!-- .............................follow us on code -->
+		Follow us on-
+		<ul>
+			<li> <a href="http://www.facebook.com"> Facebook </a> </li>
+			<li> <a href="http://www.twitter.com">Twitter</a> </li>
+			<li> <a href="http://www.instagram.com">Instagram </a> </li>
+		</ul>
+		<a href="MBA_Project_Page_2(feedback)_2020.html">Click here for Feedback/complain</a>
+
+</body>
+</html>

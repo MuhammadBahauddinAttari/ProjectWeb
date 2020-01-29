@@ -1,0 +1,19 @@
+h1 {     /*make all the h3 text colored*/
+	/*color: #FF11FF ;   2 for red 2 for green 2 for blue*/
+	/*color: rgb(0-255,0-255,0-255);*/
+	/*color: rgba(0-255,0-255,0-255,0.0-1);*/
+
+	color: rgba(225,55,55,0.88);
+}
+
+h2 {
+	color: #33CCFF;
+}
+		body {
+				background: url("backgroundofindex.png");
+				background-size: cover;
+			}
+
+
+	
+
