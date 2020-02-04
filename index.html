@@ -15,6 +15,14 @@
 	            	
 	            </style>
 	            <link rel="stylesheet" type="text/css" href="MBA_Project_Page_2(feedback)_2020.css">
+
+	           <!--  dark mode  -->
+<style >
+.dark-mode {
+  background: black;
+color: white;  
+}
+</style>
 </head>
 <body>
 								<!-- ............................dark mode light mode code -->
@@ -24,8 +32,21 @@
 			<option value="change2">Light Mode</option>
 		</select>
 		<button>Change</button>
+		
+		
 	</form>
-	<h1 style="color : green; ">Welcome to FIRST CHOICE</h1> <!-- h1 h2 h3 .. h6 are height/size -->   <!-- style="color : red;  is css -->
+
+<!-- 						.............dark mode button and javascrip code -->
+<button onclick="myFunction()">Toggle dark mode</button>
+	<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+
+	<h1 style="color : #DDFF88; ">Welcome to FIRST CHOICE</h1> <!-- h1 h2 h3 .. h6 are height/size -->   <!-- style="color : red;  is css -->
 	<h6>Get everything here!</h6>
 
 				<!-- ..........................................	Log in | sign up coding -->
@@ -66,8 +87,8 @@
 				<td>4.5/5</td>
 			</tr>
 			<tr>
-				<td> <a href="https://www.amazon.in/Whirlpool-WDE-205-CLS-Plus/dp/B0751P1GGW/ref=sr_1_2_sspa?keywords=fridge&qid=1580214519&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExVUtEQjRHVUJQVFAyJmVuY3J5cHRlZElkPUExMDE3ODEyMUw0RjlJTVdURk45RyZlbmNyeXB0ZWRBZElkPUEwODE4NDkxMTRISVEyS09QQVU0JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="> <img src="product2fridge.png"> </a>	 </td>
-				<td>Rs 11,990</td>
+				 <td> <a href="https://www.amazon.in/Whirlpool-WDE-205-CLS-Plus/dp/B0751P1GGW/ref=sr_1_2_sspa?keywords=fridge&qid=1580214519&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExVUtEQjRHVUJQVFAyJmVuY3J5cHRlZElkPUExMDE3ODEyMUw0RjlJTVdURk45RyZlbmNyeXB0ZWRBZElkPUEwODE4NDkxMTRISVEyS09QQVU0JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="> <center> <img src="product2fridge.png"> </center> </a>	 </td>
+				<td>Rs 11,990</td> 
 				<td>4/5</td>
 			</tr>
 			<tr>
@@ -79,14 +100,28 @@
 	</table>
 	</br> </center>
 
-				<!-- ........................... available cities , country list code -->
 
-		<em>Our products are available in- </em>
+	      <!-- .............................. explore more  -->
+<center >
+	<h2 style="color: black">Explore more ! </h2>
+<marquee scrollamount="6"
+direction="down"
+behavior="scroll">
+	<a href="https://unsplash.com/photos/xsGxhtAsfSA"><img src="mobileshowcase.png" width=496 height=380 align=left border="2"> </a>
+	<a href="https://unsplash.com/s/photos/computer"><img src="laptopshow.png" width=499 height=380 border="2"> </a>
+	<a href="https://unsplash.com/photos/sQ0xXxQdfeY"> <img src="getgets.png" width=496 height=380 align="right" border="2"> </a>
+</marquee>
+</center>
+
+
+				<!-- ........................... available cities , country list code -->
+	
+		<p><em>Our products are available in- </em></p>
 		<ol> <!-- orderd list... numbering will be there -->
 			<em>
 			<li>United State of America</li>
 			<li>Canada</li>
-			<li>India</li>
+			<li id="indiaid">India</li>
 				<ul>    <!-- unorderd list...  no numbering will be there -->
 					<li>Mumbai</li>
 					<li>Delhi</li>
@@ -94,19 +129,26 @@
 					<li>Hyderabad</li>
 				</ul>
 
-			<li>Russia</li>
-			<li>Saudi Arab</li>
-			<li>France</li>
+			<li calss="country" >Russia</li>
+			<li >Saudi Arab</li>         <!-- id="indiaid" -->
+			<li >France</li>				<!-- class="country"  -->
 			<li>Qatar</li>
-			<li>Iran</li>
+			<li>Iran</li>			 <!-- calss="country" -->
 			</em>
 		</ol>
+
 									<!-- .............................follow us on code -->
 		Follow us on-
 		<ul>
 			<li> <a href="http://www.facebook.com"> Facebook </a> </li>
-			<li> <a href="http://www.twitter.com">Twitter</a> </li>
-			<li> <a href="http://www.instagram.com">Instagram </a> </li>
+			<li> <a href="http://www.twitter.com">Twitter  </a> </li>
+			<li> <a href="http://www.instagram.com">Instagram  </a> </li>
+				 <!-- ............img -->
+		<br>
+			<a href="http://www.facebook.com"> <img src="fbicon.png" width="30" height="30"> </a> 
+			<a href="http://www.twitter.com"> <img src="twittericon.png" width="30" height="30" > </a> 
+			<a href="http://www.instagram.com"> <img src="instagramicon.png" width=30 height=30> </a> 
+		</br>
 		</ul>
 		<a href="MBA_Project_Page_2(feedback)_2020.html">Click here for Feedback/complain</a>
 
