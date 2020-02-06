@@ -16,12 +16,29 @@
 	            </style>
 	            <link rel="stylesheet" type="text/css" href="MBA_Project_Page_2(feedback)_2020.css">
 
+	               					<!-- ................GOOGLE FONT -->
+	            <link href="https://fonts.googleapis.com/css?family=Jim+Nightshade&display=swap" rel="stylesheet">
+	            <!-- go to google font pick up ... attack link here ... edit/add font-familt: Jim Nightshade in css -->
+
 	           <!--  dark mode  -->
 <style >
 .dark-mode {
-  background: black;
-color: white;  
+  background: #071623 ;
+color: #BADDEB;  
 }
+</style>
+				<!-- ..................... blink css code -->
+<style type="text/css">
+	.blink {
+      animation: blinker 0.6s linear infinite;
+      color: red;
+      font-size: 20px;
+      /*font-weight: bold;*/
+      /*font-family: sans-serif;*/
+      }
+       @keyframes blinker {  
+      50% { opacity: 0; }
+      }
 </style>
 </head>
 <body>
@@ -71,7 +88,7 @@ function myFunction() {
 
 										<!-- .............................................best product table section -->
 	<br> <center>
-	<table border="1">
+	<table border="5">
 		<h2><b><i>Our best products</i></b></h2>
 		<thead>
 			<tr>
@@ -82,7 +99,7 @@ function myFunction() {
 		</thead>
 		<tbody>
 			<tr>
-				<td>  <a href="https://www.amazon.in/Gaming-G3-3579-i5-8300H-Windows-Graphics/dp/B07XZFYQ18/ref=sr_1_1_sspa?keywords=laptop&qid=1580210607&smid=A14CZOWI0VEHLG&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySEZTN1BZTUNMSUE0JmVuY3J5cHRlZElkPUEwMzc2NzQ4MjJFQUI5SllRRE9aMSZlbmNyeXB0ZWRBZElkPUEwODc2MjAxMTFVUEJGQ01aS0EyViZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=""><img src="product1.png"> </a> </td>
+				<td>  <a href="https://www.amazon.in/Gaming-G3-3579-i5-8300H-Windows-Graphics/dp/B07XZFYQ18/ref=sr_1_1_sspa?keywords=laptop&qid=1580210607&smid=A14CZOWI0VEHLG&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySEZTN1BZTUNMSUE0JmVuY3J5cHRlZElkPUEwMzc2NzQ4MjJFQUI5SllRRE9aMSZlbmNyeXB0ZWRBZElkPUEwODc2MjAxMTFVUEJGQ01aS0EyViZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="><img src="product1.png"> </a> </td>
 				<td>Rs 59,999</td>
 				<td>4.5/5</td>
 			</tr>
@@ -107,11 +124,18 @@ function myFunction() {
 <marquee scrollamount="6"
 direction="down"
 behavior="scroll">
-	<a href="https://unsplash.com/photos/xsGxhtAsfSA"><img src="mobileshowcase.png" width=496 height=380 align=left border="2"> </a>
-	<a href="https://unsplash.com/s/photos/computer"><img src="laptopshow.png" width=499 height=380 border="2"> </a>
-	<a href="https://unsplash.com/photos/sQ0xXxQdfeY"> <img src="getgets.png" width=496 height=380 align="right" border="2"> </a>
+	<a id="marqueeimgcss" href="https://unsplash.com/photos/xsGxhtAsfSA"><img src="mobileshowcase.png" width=496 height=380 align=left border="1"> </a>
+	<a id="marqueeimgcss" href="https://unsplash.com/s/photos/computer"><img src="laptopshow.png" width=496 height=380 border="1"> </a>
+	<a id="marqueeimgcss" href="https://unsplash.com/photos/sQ0xXxQdfeY"> <img src="getgets.png" width=496 height=380 align="right" border="1"> </a>
 </marquee>
 </center>
+
+
+
+			<!-- ........................GAME SECTION  -->
+<a href="MBA_Project_Page_3(GAME_TIKTAKTOE)_2020.html" class="blink">Game Section</a>
+
+
 
 
 				<!-- ........................... available cities , country list code -->
@@ -136,6 +160,8 @@ behavior="scroll">
 			<li>Iran</li>			 <!-- calss="country" -->
 			</em>
 		</ol>
+
+
 
 									<!-- .............................follow us on code -->
 		Follow us on-
