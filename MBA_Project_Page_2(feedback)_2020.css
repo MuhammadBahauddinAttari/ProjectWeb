@@ -4,16 +4,60 @@ h1 {     /*make all the h3 text colored*/
 	/*color: rgba(0-255,0-255,0-255,0.0-1);*/
 
 	color: rgba(225,55,55,0.88);
+	font-family: Jim Nightshade;
 }
 
 h2 {
 	color: #33CCFF;
+	/*border-width: 5px;      making border arround h2 with setting width/size solidity and color
+	border-style: solid;
+	border-color: red;*/
+	border: 3px solid red;  /*shortcut*/
+	background: yellow;
 }
-		body {
+body {
+			
+				
+			
 				background: url("backgroundofindex.png");
 				background-size: cover;
-			}
+			
+  	}
+  	               /*................. id can modify single /,multiple desired line*/
+ #indiaid{
+ 	background: #00FF00;
+ }
+/*                             ......class can modify multiple 
+.country {
+	background-color: red;
+}
+*/	
 
+.dark-mode {
+  background-color: black;
+  
+}
+
+/*#marqueeimgcss{
+	/*content - width - height*/
+	/*width: 50%;*/
+
+	/*border:*/ 
+
+
+	/*Padding*/
+	
+
+	/*Margin*/
+	/*margin: 0 1.5px;*/
+
+/*}*/
+
+.exploremoreimg {
+	width: 33%;
+	height: 340px;
+	
 
 	
+}
 
