@@ -1,0 +1,15 @@
+img {
+	width: 30%; 		/*  100% is the screen ..... 3 images of 30%=90% 10% left*/
+	float: left;   /*floaf like gravity on left side*/
+	margin : 1.66%;    		/*left 10%/6 sides ...... 2 side for left image 2 for center 2 for right image.... */
+}
+p {
+	margin-left: 1.66%;
+	font-family: Raleway; 
+	font-weight: 800; /*bold*/
+	font-size: 23px;
+	text-transform: uppercase;
+	border-bottom: solid #f1f1f1 ;
+	width: 30%;  /*width of border*/
+	padding-bottom: 20px; /*distance between border and image*/
+}
